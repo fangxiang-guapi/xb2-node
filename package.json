@@ -1,18 +1,18 @@
 {
-  "name": "shiyansss",
+  "name": "xb2-node",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "wanghao <wanghao@ninghao.net>",
   "license": "ISC",
-  "description": "",
-    
-
-"name": "xb2-node", 
-"version": "1.0.0", 
-"description": "《小白的开发之路》", 
-"author": "wanghao <wanghao@ninghao.net>"
+  "description": "《小白的开发之路》",
+  "dependencies": {
+    "express": "^4.17.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
 }
