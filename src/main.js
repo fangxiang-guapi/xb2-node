@@ -4,5 +4,10 @@ response.write('hello ~');
 response.end(); 
 }); 
 server.listen(3000, () => { 
-console.log('�服务已启动! ');
+console.log('�服务已启动！'); 
+
+
+
+   
 });
+
