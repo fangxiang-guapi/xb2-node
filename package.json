@@ -11,8 +11,5 @@
   "description": "《小白的开发之路》",
   "dependencies": {
     "express": "^4.17.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.8.2"
   }
 }
