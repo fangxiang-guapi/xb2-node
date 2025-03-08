@@ -3,13 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "tsc-watch --onSuccess \"node dist/main.js\"" ,
+    "format": "prettier --write \"src/**/*.ts\"" 
   },
   "keywords": [],
   "author": "wanghao <wanghao@ninghao.net>",
   "license": "ISC",
   "description": "《小白的开发之路》",
   "dependencies": {
-    "express": "^4.17.0"
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@types/node": "^22.13.9",
+    "prettier": "1.19.1",
+    "tsc-watch": "^4.2.3",
+    "typescript": "^5.8.2"
   }
 }
